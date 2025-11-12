@@ -1,0 +1,565 @@
+{
+  "versions": [
+    {
+      "schema": 1,
+      "id": "pythoncore-3.13-32",
+      "sort-version": "3.13.9",
+      "company": "PythonCore",
+      "tag": "3.13-32",
+      "install-for": [
+        "3.13.9-32",
+        "3.13-32",
+        "3-32"
+      ],
+      "alias": [
+        {
+          "target": "python.exe",
+          "name": "python3.13.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.13-32.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3-32.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13-32.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3-32.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (32-bit)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-win32.zip",
+      "hash": {
+        "sha256": "5585fcbfaf636f4595c1ae6e5d507b6c64cdd469237370580d63197ccdf90ad9"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythoncore-3.13-64",
+      "sort-version": "3.13.9",
+      "company": "PythonCore",
+      "tag": "3.13-64",
+      "install-for": [
+        "3.13.9-64",
+        "3.13-64",
+        "3-64"
+      ],
+      "alias": [
+        {
+          "target": "python.exe",
+          "name": "python3.13.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.13-64.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3-64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13-64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3-64.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-amd64.zip",
+      "hash": {
+        "sha256": "b87eb2b5d7a31220b56f3ab19b1817065af3dd57997aff752132bc13e7832915"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythoncore-3.13-arm64",
+      "sort-version": "3.13.9",
+      "company": "PythonCore",
+      "tag": "3.13-arm64",
+      "install-for": [
+        "3.13.9-arm64",
+        "3.13-arm64",
+        "3-arm64"
+      ],
+      "alias": [
+        {
+          "target": "python.exe",
+          "name": "python3.13.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.13-arm64.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3-arm64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13-arm64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3-arm64.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (ARM64)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-arm64.zip",
+      "hash": {
+        "sha256": "a2c9be03ed6ef59e16f3fc59d86464070c9738bd7ae7a893ec146c1427567169"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythoncore-3.13t-32",
+      "sort-version": "3.13.9",
+      "company": "PythonCore",
+      "tag": "3.13t-32",
+      "install-for": [
+        "3.13.9t-32",
+        "3.13t-32",
+        "3t-32"
+      ],
+      "alias": [
+        {
+          "target": "python3.13t.exe",
+          "name": "python3.13t.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3.13t-32.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3t.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3t-32.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3.13t.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3.13t-32.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3t.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3t-32.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (32-bit, free-threaded)",
+      "executable": ".\\python3.13t.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9t-win32.zip",
+      "hash": {
+        "sha256": "c0b62cf49ad1151202a9abcd745994cb611bfd6ffe3d7d90b91aa78a8128457d"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythoncore-3.13t-64",
+      "sort-version": "3.13.9",
+      "company": "PythonCore",
+      "tag": "3.13t-64",
+      "install-for": [
+        "3.13.9t-64",
+        "3.13t-64",
+        "3t-64"
+      ],
+      "alias": [
+        {
+          "target": "python3.13t.exe",
+          "name": "python3.13t.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3.13t-64.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3t.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3t-64.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3.13t.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3.13t-64.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3t.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3t-64.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (free-threaded)",
+      "executable": ".\\python3.13t.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9t-amd64.zip",
+      "hash": {
+        "sha256": "15111fcd7ae55ba80fbd83e45d35d77539bff1bb64b32d65843feefa6fbeb942"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythoncore-3.13t-arm64",
+      "sort-version": "3.13.9",
+      "company": "PythonCore",
+      "tag": "3.13t-arm64",
+      "install-for": [
+        "3.13.9t-arm64",
+        "3.13t-arm64",
+        "3t-arm64"
+      ],
+      "alias": [
+        {
+          "target": "python3.13t.exe",
+          "name": "python3.13t.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3.13t-arm64.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3t.exe"
+        },
+        {
+          "target": "python3.13t.exe",
+          "name": "python3t-arm64.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3.13t.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3.13t-arm64.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3t.exe"
+        },
+        {
+          "target": "pythonw3.13t.exe",
+          "windowed": 1,
+          "name": "pythonw3t-arm64.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (ARM64, free-threaded)",
+      "executable": ".\\python3.13t.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9t-arm64.zip",
+      "hash": {
+        "sha256": "318adaa62489311606ad33e3061e1f470a02caadff2059bece2fd81b1f87ee51"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythonembed-3.13-32",
+      "sort-version": "3.13.9",
+      "company": "PythonEmbed",
+      "tag": "3.13-32",
+      "install-for": [
+        "3.13.9-32",
+        "3.13-32",
+        "3-32"
+      ],
+      "alias": [],
+      "display-name": "Python 3.13.9 (32-bit, embeddable)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-embeddable-win32.zip",
+      "hash": {
+        "sha256": "0e8986d9bdceb000eab9ba9980b2d25ed9675d0819a0b6b2e9f3757b14f9c70a"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythonembed-3.13-64",
+      "sort-version": "3.13.9",
+      "company": "PythonEmbed",
+      "tag": "3.13-64",
+      "install-for": [
+        "3.13.9-64",
+        "3.13-64",
+        "3-64"
+      ],
+      "alias": [],
+      "display-name": "Python 3.13.9 (embeddable)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-embeddable-amd64.zip",
+      "hash": {
+        "sha256": "760875a79acd02de62d2408e6e2d242d85748c1fc28b72032dca486f8290442a"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythonembed-3.13-arm64",
+      "sort-version": "3.13.9",
+      "company": "PythonEmbed",
+      "tag": "3.13-arm64",
+      "install-for": [
+        "3.13.9-arm64",
+        "3.13-arm64",
+        "3-arm64"
+      ],
+      "alias": [],
+      "display-name": "Python 3.13.9 (ARM64, embeddable)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-embeddable-arm64.zip",
+      "hash": {
+        "sha256": "988fadbf111cff76a55e03aef9f2a69753ae18e6e46682d8446af419abc15190"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythontest-3.13-32",
+      "sort-version": "3.13.9",
+      "company": "PythonTest",
+      "tag": "3.13-32",
+      "install-for": [
+        "3.13.9-32",
+        "3.13-32",
+        "3-32"
+      ],
+      "alias": [
+        {
+          "target": "python.exe",
+          "name": "python3.13.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.13-32.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3-32.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13-32.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3-32.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (32-bit, with tests)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-test-win32.zip",
+      "hash": {
+        "sha256": "d80abf25be290ac8afada1adf0f1997dd6a0802b14a7ab1a022632b81361b12e"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythontest-3.13-64",
+      "sort-version": "3.13.9",
+      "company": "PythonTest",
+      "tag": "3.13-64",
+      "install-for": [
+        "3.13.9-64",
+        "3.13-64",
+        "3-64"
+      ],
+      "alias": [
+        {
+          "target": "python.exe",
+          "name": "python3.13.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.13-64.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3-64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13-64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3-64.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (with tests)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-test-amd64.zip",
+      "hash": {
+        "sha256": "c9946945c4081662502c7151af82aaaca3eebe1f427cf2e07cb9c89185751b12"
+      }
+    },
+    {
+      "schema": 1,
+      "id": "pythontest-3.13-arm64",
+      "sort-version": "3.13.9",
+      "company": "PythonTest",
+      "tag": "3.13-arm64",
+      "install-for": [
+        "3.13.9-arm64",
+        "3.13-arm64",
+        "3-arm64"
+      ],
+      "alias": [
+        {
+          "target": "python.exe",
+          "name": "python3.13.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.13-arm64.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3.exe"
+        },
+        {
+          "target": "python.exe",
+          "name": "python3-arm64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.13-arm64.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3.exe"
+        },
+        {
+          "target": "pythonw.exe",
+          "windowed": 1,
+          "name": "pythonw3-arm64.exe"
+        }
+      ],
+      "display-name": "Python 3.13.9 (ARM64, with tests)",
+      "executable": ".\\python.exe",
+      "url": "https://www.python.org/ftp/python/3.13.9/python-3.13.9-test-arm64.zip",
+      "hash": {
+        "sha256": "6497616b14e6961c090ab877af36775b72db7860673c990095398dd396dbb2a0"
+      }
+    }
+  ]
+}
