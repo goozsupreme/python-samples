@@ -1,3 +1,5 @@
+# this doesnt work, still testing
+
 upper = 0
 lower = 0
 digit = 0
