@@ -1,21 +1,16 @@
-#this doesn't work still testing
-
-import math
-
-my_list =["January","Febuary","March","April","May","June","July","August","September","October","November","December"]
-total = 0
+month_list =["January","Febuary","March","April","May","June","July","August","September","October","November","December"]
+#total = 0
 
 total = int(input("Enter number of months it rained ")) #User enters in how many months that it rained
 
-for n in range(0,total):
-     print(my_list[n])
-     amount = int(input("Enter rainfall ")) #User enters in mow much rainfall
-     total += amount #Concatenate the total months they entered and the total amount of rainfall they entered
+for n in range(1,total):
+     print(month_list[n])
+     amount = int(input("Enter rainfall ")) #User enters in mow much rainfall per month
+     sum = amount
+     total += sum
 
-print("Total is",total) #Prints total amount of months or rainfall?
+print("Total amount of rainfall was", sum)
 
-print(min(amount))
-print(max(amount))
+average = amount / total
 
-average = total (amount)
 print("The average is",average)
