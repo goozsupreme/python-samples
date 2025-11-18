@@ -1,18 +1,29 @@
-# this doesnt work, still testing
-
-upper = 0
-lower = 0
-digit = 0
+has_uppercase = True
+has_lowercase = True
+has_digit = True
 
 password = input("Enter password ")
 
-for x in password:
-     for i in range(len(password)>=8):
-          if(password.isupper()):
-                    upper = 1
-          elif(password.islower()):
-                    lower = 1
-          elif(password.isdigit()):
-                    digit = 1
-          else:
-               print("Please try again")
+for char in (password):
+     if not (len(password) > 8):
+          print("passowrd is too short")
+          break
+
+     if (password.isupper()):
+          has_uppercase = False
+          print("Missing uppercase")
+          break
+
+     if (password.islower()):           #has_lowercase is not working
+          has_lowercase = False
+          print("Missing lowercase")
+          break
+     
+     if (password.isdigit()):           #has_digit is not working
+          has_digit = False
+          print("Missing digit")
+          break
+
+     else:
+          print("Good password")
+          break
