@@ -1,16 +1,16 @@
 month_list =["January","Febuary","March","April","May","June","July","August","September","October","November","December"]
-#total = 0
+store = []
+total = 0
 
 total = int(input("Enter number of months it rained ")) #User enters in how many months that it rained
 
-for n in range(1,total):
+for n in range(0,total):
      print(month_list[n])
      amount = int(input("Enter rainfall ")) #User enters in mow much rainfall per month
-     sum = total + amount
-     total += sum(amount)
+     store.append(amount)
 
-print("Total amount of rainfall was", sum(total))
+total_sum = sum(store)
+print(f"Total amount of rainfall was {total_sum}")
 
-average = amount / total
-
-print("The average is",average)
+average = total_sum / len(store)
+print(f"The average amount of rainfall was {average}")
