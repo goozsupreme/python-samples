@@ -1,0 +1,9 @@
+// Make sure to run "pip install debugpy" in command prompt/terminal beforehand
+
+{
+        "name": "Python: Current File",
+        "type": "debugpy", // Make sure this is "debugpy"
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal"
+}
