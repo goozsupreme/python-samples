@@ -7,26 +7,26 @@ def password_check(password):
      for char in (password):
           if (len(password) < 8):
                too_short = True
-               print("password is too short")
+               print("Password is too short!")
                return True
-               
+     
           elif (password.isupper()):
                has_uppercase = True
-               print("Missing lowercase")
+               print("Missing lowercase!")
                return True
-               
+
           elif (password.islower()):
                has_lowercase = True
-               print("Missing uppercase")
+               print("Missing uppercase!")
                return True
-          
-          elif (char.isdigit()):
+
+          elif (isinstance(password, int)):
                has_digit = True
-               print("Missing digit")
+               print("Missing digit!")
                return True
           
           else:
-               print("Good password")
+               print("Good password!")
                break
 
-password_check(password = input("Enter password "))
+password_check(password = input("Enter password: "))
